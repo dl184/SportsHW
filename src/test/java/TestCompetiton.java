@@ -1,5 +1,4 @@
 import Models.Competition;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,5 +19,7 @@ public class TestCompetiton {
     @Test
     public void hasName() {
         assertEquals("Uefa Champions League", competition1.getName());
+        assertEquals("FA Cup", competition2.getName());
     }
+
 }

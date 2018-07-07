@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03904-eacf-40fc-946b-5b0b2845ed7c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCompetiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBCompetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/DBTeam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportsHW.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/DBPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/DBPlayers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCompetiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCompetiton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/DBPlayers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/DBPlayers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCompetiton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCompetiton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestTeam.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,53 +29,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestTeam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestTeam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCompetiton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCompetiton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClubStaff.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/ClubStaff.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Competition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Competition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBCompetition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db/DBCompetition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,20 +71,8 @@
       <file leaf-file-name="TestManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +83,53 @@
       <file leaf-file-name="TestPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="-48">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTeam.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTeam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquadNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/SquadNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,21 +161,25 @@
         <option value="$PROJECT_DIR$/src/main/java/Models/SquadNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/ClubStaff.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Competition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Models/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCompetiton.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Manager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestPlayer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCompetiton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Models/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBPlayers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPlayer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTeam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/DBCompetition.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,12 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPlayer">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="SportsHW" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestTeam">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -317,6 +344,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestTeam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SportsHW" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTeam" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -356,19 +400,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Runner" />
       <item itemvalue="JUnit.TestCompetiton" />
       <item itemvalue="JUnit.TestManager" />
       <item itemvalue="JUnit.TestPlayer" />
       <item itemvalue="JUnit.TestPlayer.hasName" />
+      <item itemvalue="JUnit.TestTeam" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTeam" />
         <item itemvalue="JUnit.TestPlayer" />
-        <item itemvalue="JUnit.TestPlayer.hasName" />
         <item itemvalue="JUnit.TestManager" />
-        <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.TestCompetiton" />
+        <item itemvalue="JUnit.TestPlayer.hasName" />
       </list>
     </recent_temporary>
   </component>
@@ -386,35 +430,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 37m 03s.xml">
+    <history-entry file="TestTeam - 2018.07.07 at 14h 13m 11s.xml">
+      <configuration name="TestTeam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTeam - 2018.07.07 at 14h 13m 19s.xml">
+      <configuration name="TestTeam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPlayer - 2018.07.07 at 14h 21m 41s.xml">
       <configuration name="TestPlayer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 37m 14s.xml">
+    <history-entry file="TestPlayer - 2018.07.07 at 14h 23m 05s.xml">
       <configuration name="TestPlayer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 39m 39s.xml">
+    <history-entry file="TestManager - 2018.07.07 at 14h 28m 27s.xml">
+      <configuration name="TestManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager - 2018.07.07 at 14h 30m 00s.xml">
+      <configuration name="TestManager" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPlayer - 2018.07.07 at 14h 30m 09s.xml">
       <configuration name="TestPlayer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 39m 52s.xml">
+    <history-entry file="TestPlayer - 2018.07.07 at 14h 31m 27s.xml">
       <configuration name="TestPlayer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 41m 08s.xml">
-      <configuration name="TestPlayer" configurationId="JUnit" />
+    <history-entry file="TestTeam - 2018.07.07 at 14h 31m 35s.xml">
+      <configuration name="TestTeam" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlayer_hasName - 2018.07.07 at 11h 41m 54s.xml">
-      <configuration name="TestPlayer.hasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlayer_hasName - 2018.07.07 at 11h 43m 10s.xml">
-      <configuration name="TestPlayer.hasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlayer_hasName - 2018.07.07 at 11h 44m 19s.xml">
-      <configuration name="TestPlayer.hasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 44m 27s.xml">
-      <configuration name="TestPlayer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlayer - 2018.07.07 at 11h 46m 53s.xml">
-      <configuration name="TestPlayer" configurationId="JUnit" />
+    <history-entry file="TestTeam - 2018.07.07 at 14h 31m 49s.xml">
+      <configuration name="TestTeam" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -551,17 +595,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBPlayers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/ClubStaff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCompetiton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -578,75 +629,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/SquadNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBTeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBPlayers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Competition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="371">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestTeam.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCompetiton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/ClubStaff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="-709">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -655,8 +658,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="78">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/SquadNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -665,18 +712,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="155">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTeam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Competition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DBCompetition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
