@@ -8,6 +8,9 @@ public class Player extends ClubStaff {
     private SquadNumber squadNumbers;
     private Team team;
 
+    public Player(){
+
+    }
 
     public Player(String name, int age, String nationality, int salary, SquadNumber squadNumbers) {
         super(name, age, nationality, salary);
@@ -32,6 +35,8 @@ public class Player extends ClubStaff {
     public void setTeam(Team team) {
         this.team = team;
     }
+
+
 }
 
 

@@ -13,6 +13,9 @@ public class Manager extends ClubStaff {
 //    Player players;
     Team team;
 
+    public Manager(){
+        }
+
     public Manager(String name, int age, String nationality, int salary) {
         super(name, age, nationality, salary);
 //        this.players = players;
