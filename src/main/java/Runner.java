@@ -16,7 +16,7 @@ public class Runner {
         Manager manager1 = new Manager("Antonio Conte", 56, "Italian", 95000);
         DBHelper.save(manager1);
         Manager manager2 = new Manager("Pep Guardiola", 53, "Spanish", 155000);
-        DBHelper.save(manager1);
+        DBHelper.save(manager2);
 
         Team team1 = new Team("Manchester City", manager2);
         DBHelper.save(team1);
@@ -28,6 +28,8 @@ public class Runner {
         Player player2 = new Player("Cesc Fabregas", 34, "Spanish", 105000, SquadNumber.EIGHT);
         DBHelper.save(player2);
 
+        player1.setTeam(team1);
+        player2.setTeam(team2);
 //        List<Player> getPlayers = DBPlayers.getAllPlayersInTeam(team1);
 
     }

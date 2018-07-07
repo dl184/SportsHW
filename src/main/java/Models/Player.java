@@ -27,7 +27,7 @@ public class Player extends ClubStaff {
     }
 
     @ManyToOne
-    @JoinColumn(name="team_id", nullable=false)
+    @JoinColumn(name="team_id", nullable=true)
     public Team getTeam() {
         return team;
     }
