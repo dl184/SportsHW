@@ -1,4 +1,5 @@
 import Models.Player;
+import Models.SquadNumber;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,20 +12,20 @@ public class TestPlayer {
 
     @Before
     public void setUp() {
-        player1 = new Player("Cristino Ronaldo", 33, "Portuguese", 406000, player1.getSquadNumbers());
-        player2 = new Player("Sergio Aguero", 31, "Argentinian", 165000, player2.getSquadNumbers());
+        player1 = new Player("Ronaldo", 33, "Portuguese", 406000, SquadNumber.EIGHT);
+        player2 = new Player("Sergio Aguero", 31, "Argentinian", 165000, SquadNumber.NINETEEN);
         }
 
     @Test
     public void hasName() {
         assertEquals("Ronaldo", player1.getName());
-        assertEquals("Messi", player2.getName());
+        assertEquals("Sergio Aguero", player2.getName());
     }
 
     @Test
     public void hasAge() {
         assertEquals(33, player1.getAge());
-        assertEquals(21, player2.getAge());
+        assertEquals(31, player2.getAge());
     }
 
     @Test
@@ -39,9 +40,9 @@ public class TestPlayer {
         assertEquals(165000, player2.getSalary());
     }
 
-//    @Test
-//    public void hasSquadNumber() {
-//        assertEquals(player1, player1.getSquadNumbers());
-//        assertEquals(player2, player2.getSquadNumbers());
-//    }
+    @Test
+    public void hasSquadNumber() {
+        assertEquals(SquadNumber.EIGHT, player1.getSquadNumbers());
+        assertEquals(SquadNumber.NINETEEN, player2.getSquadNumbers());
+    }
 }

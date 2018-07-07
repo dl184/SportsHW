@@ -1,4 +1,3 @@
-
 import Models.Manager;
 import Models.Team;
 import org.junit.Before;
@@ -10,20 +9,25 @@ public class TestTeam {
 
     Team team1;
     Team team2;
+    Manager manager1;
+    Manager manager2;
 
 
     @Before
     public void setUp(){
 
-        team1 = new Team("Glasgow Rangers", team1.getManager());
-        team2 = new Team("Chelsea", team2.getManager());
+        manager1 = new Manager("Alex McLeish", 65, "Scottish", 25500);
+        manager2 = new Manager("Steven Gerrard", 41, "English", 19500);
 
-        }
+        team1 = new Team("Rangers", manager1);
+        team2 = new Team("Scotland", manager2);
+
+    }
 
     @Test
     public void hasName() {
-        assertEquals("Glasgow Rangers", team1.getName());
-        assertEquals("Chelsea", team2.getName());
+        assertEquals("Rangers", team1.getName());
+        assertEquals("Scotland", team2.getName());
 
     }
 }

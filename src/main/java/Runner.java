@@ -5,7 +5,7 @@ import Models.Team;
 import db.DBHelper;
 import db.DBPlayers;
 
-import java.awt.*;
+
 import java.util.List;
 
 public class Runner {
@@ -28,7 +28,7 @@ public class Runner {
         Player player2 = new Player("Cesc Fabregas", 34, "Spanish", 105000, SquadNumber.EIGHT);
         DBHelper.save(player2);
 
-        List<Player> getPlayers = DBPlayers.getAllPlayersInTeam(team1);
+//        List<Player> getPlayers = DBPlayers.getAllPlayersInTeam(team1);
 
     }
 }
