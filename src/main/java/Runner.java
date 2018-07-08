@@ -3,6 +3,7 @@ import Models.Player;
 import Models.SquadNumber;
 import Models.Team;
 import db.DBHelper;
+import db.DBManager;
 import db.DBPlayers;
 
 
@@ -30,7 +31,17 @@ public class Runner {
 
         player1.setTeam(team1);
         player2.setTeam(team2);
-//        List<Player> getPlayers = DBPlayers.getAllPlayersInTeam(team1);
+        manager1.setTeam(team2);
+        manager2.setTeam(team1);
+
+        List<Player> getPlayers = DBPlayers.getAllPlayersInTeam(team1);
+        Manager foundManager= DBHelper.find(Manager.class, manager1.getId());
+        Team foundTeam= DBHelper.find(Team.class, team1.getId());
+
+
+
+
+
 
     }
 }
